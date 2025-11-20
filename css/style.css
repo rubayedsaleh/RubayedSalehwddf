@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,li,ol,a,p{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.service .serviceicon{
+    width: 60px;
+    height: 60px;
+    
+}
+.dropdown-menu{
+    position: relative;
+}
+.sub-menu{
+   position: absolute;
+   background-color: white;
+   left: 100%;
+   top: 10%;
+   display: none;
+   list-style: none;
+   border: 0.2px dotted black;
+   cursor: pointer;
+   padding: 2px;
+
+}
+.dropdown-menu li:hover .sub-menu{
+    display: block;
+}
+.contact-info{
+    border: 0.3px solid whitesmoke;
+     border-radius: 50px;
+}
+
+.contact-info:hover{
+    border: 0.3px solid orangered;
+    border-radius: 50px;
+}
+.icon-phone{
+    border-right: 0.5px solid white;
+ 
+}
+.c-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.imlul{
+    list-style: none;
+    
+
+   
+}
+.imlul li{
+    padding: 10px 0;
+    border: 0.2px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.imlul li a{
+    color: white;
+}
+.imlul li:hover{
+    border: 0.2px solid orangered;
+}
+.map iframe {
+    height: 200px;
+    border-radius: 5px;
+}
